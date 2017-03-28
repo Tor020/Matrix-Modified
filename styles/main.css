@@ -1,34 +1,45 @@
-html, body { height: 100%; margin: 0; }
+html, body 
+{
+height: 100%;
+margin: 0;
+}
 
 .container
+{
+display: block;
+height: 100%;
+width: 100%;
+}
+
+#c
 
 {
-    display: block;
-    height: 100%;
-    width: 100%;
+z-index:-1;
+position:absolute;
+left: 0px;
+top: 0px;
 }
-#c
-{
-  z-index:-1;
-  position:absolute;
-  left: 0px;
-  top: 0px;
-}
+
 div
+
 {
-	display: flex;
-	align-items: center;
-    height: 100%;
-    width: 100%;
-    justify-content: center;
+display: flex;
+align-items: center;
+height: 100%;
+width: 100%;
+justify-content: center;
 }
-button{
+
+button
+{
 z-index:1;
 background-color:black;
 color:white;
 border-style:none;
 }
-button:focus{
+
+button:focus
+{
 outline:none;
 }
 
