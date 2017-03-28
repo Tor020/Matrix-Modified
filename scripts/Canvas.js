@@ -2,7 +2,7 @@
         setInterval(draw, 35);
 
 
-        var textColor ="#9590f4"
+        var textColor ="#3BD83B"
     //geting canvas by id c
         var c = document.getElementById("c");
         var ctx = c.getContext("2d");
@@ -62,14 +62,28 @@
 
 
 document.getElementById("Blue").addEventListener("click", functionBlue);
-
-
 document.getElementById("Green").addEventListener("click", functionGreen);
+document.getElementById("Red").addEventListener("click", functionRed);
+document.getElementById("Pink").addEventListener("click", functionPink);
+document.getElementById("Teal").addEventListener("click", functionTeal);
+document.getElementById("Purple").addEventListener("click", functionPurp);
 
 
 function functionBlue()
 {textColor = "#293CCB";}
 
 function functionGreen()
+{textColor = "#3BD83B";}
 
-{  textColor = "#3BD83B";}
+function functionRed()
+{textColor = "#ff0000";}
+
+function functionPink()
+{textColor = "#ff00ff";}
+
+function functionTeal()
+{textColor = "#00ffff";}
+
+function functionPurp()
+{textColor = "#8000ff";}
+
