@@ -47,7 +47,9 @@ var letSouth = [];
 
 for ( var x = 0; x < columns; x++ ) letSouth[ x ] = 1; //this value refers to where on the screen the characters start their initial descent. the 1 basically puts it 1 section from the very top of the page. a -1 would make it start above the page
     //drawing the characters
+
 function draw() {
+  
     //Black BG for the canvas
     //translucent amount of fade out on the page. The 4th value is opacity and the higher the value the less remains on the page
   ctx.fillStyle = "rgba(0, 0, 0, .25)";

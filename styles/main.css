@@ -42,19 +42,26 @@ button:focus
 {
 outline:none;
 }
-
+#Teal{
+	color:#00ffff;
+}
 #Green{
+	color:#3BD83B;
 transform: translate(-41px, 35px); 
 }
 #Blue{
+	color:#293CCB;
 transform: translate()	
 }
 #Red{
+	color:#ff0000;
 transform: translate(-5px, 35px);
 }
 #Pink{
+	color:#ff00ff;
 transform: translate(-41px, 0px);
 }
 #Purple {
+	color:#8000ff;
 transform: translate(-60px, 35px);
 }
